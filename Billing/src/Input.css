@@ -1,0 +1,84 @@
+.inputField{
+   
+    width:60%;
+    border:1px solid rgba(26, 23, 23, 0.781) ;
+    height : 30px;
+    margin :10px 20%;
+    padding :5px;
+    background-color: white ;
+    box-shadow: 10px rgba(26, 23, 23, 0.781) ;
+}
+
+.calciInput{
+   
+    height:50%;
+    border:1px solid rgba(26, 23, 23, 0.781) ;
+    background-color: white;
+    box-shadow: 10px antiquewhite;
+}
+
+.form{
+
+    padding: 10px;
+}
+
+.display {
+    display:flex;
+    flex-direction :column;
+    margin:auto;
+    position:relative;
+}
+
+::placeholder {
+    
+    color: gray;
+    font-size:20px;
+    text-align:justify;
+    padding: 5px;
+    font-family:"Roboto"
+}
+
+.item{
+    
+    border:1px solid rgba(26, 23, 23, 0.781);
+    width:60%;
+    margin:10px 20%;
+    padding:5px;
+    height:auto;
+    background-color: rgba(53, 50, 50, 0.781);
+    border-radius: 10px;
+    box-shadow: antiquewhite;
+
+}
+
+div>table{
+    width:100%;
+    text-align: center;
+}
+
+tr,td {
+    
+    width:50%;
+}
+
+tfoot{
+
+    font-size:30px;
+    font-weight: bolder;
+    color: white;
+}
+
+tbody{
+
+    font-size: 20px;
+    color: white;
+}
+
+
+@media only screen and (max-width : 500px){
+    
+    .btn-style{
+
+        margin: 20px 35%;
+    }
+}
